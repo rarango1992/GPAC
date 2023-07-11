@@ -64,7 +64,7 @@ router.post("/Login", (req, res, next) => {
                 console.log(err);
                 const response = {
                   data: err.toString(),
-                  msg: "API Error",
+                  msg: "API Error.",
                   code: 1,
                 };
                 res.send(response);
@@ -83,7 +83,7 @@ router.post("/Login", (req, res, next) => {
         } else {
           const response = {
             data: err.toString(),
-            msg: "API Error",
+            msg: "API Error.",
             code: 1,
           };
           res.send(response);
@@ -161,7 +161,7 @@ router.post("/AddUser", auth, (req, res, next) => {
               } else {
                 const response = {
                   data: err.toString(),
-                  msg: "API Error",
+                  msg: "API Error.",
                   code: 1,
                 };
                 res.send(response);
@@ -170,7 +170,7 @@ router.post("/AddUser", auth, (req, res, next) => {
           } else {
             const response = {
               data: err.toString(),
-              msg: "API Error",
+              msg: "API Error.",
               code: 1,
             };
             res.send(response);
@@ -179,7 +179,7 @@ router.post("/AddUser", auth, (req, res, next) => {
       } else {
         const response = {
           data: err.toString(),
-          msg: "API Error",
+          msg: "API Error.",
           code: 1,
         };
         res.send(response);
@@ -376,7 +376,7 @@ router.put("/UpdateUser", auth, (req, res, next) => {
                           } else {
                             const response = {
                               data: err.toString(),
-                              msg: "API Error",
+                              msg: "API Error.",
                               code: 1,
                             };
                             res.send(response);
@@ -394,7 +394,7 @@ router.put("/UpdateUser", auth, (req, res, next) => {
                   } else {
                     const response = {
                       data: err.toString(),
-                      msg: "API Error",
+                      msg: "API Error.",
                       code: 1,
                     };
                     res.send(response);
@@ -404,7 +404,7 @@ router.put("/UpdateUser", auth, (req, res, next) => {
             } else {
               const response = {
                 data: err.toString(),
-                msg: "API Error",
+                msg: "API Error.",
                 code: 1,
               };
               res.send(response);
@@ -440,7 +440,7 @@ router.put("/UpdateUser", auth, (req, res, next) => {
                       } else {
                         const response = {
                           data: err.toString(),
-                          msg: "API Error",
+                          msg: "API Error.",
                           code: 1,
                         };
                         res.send(response);
@@ -458,7 +458,7 @@ router.put("/UpdateUser", auth, (req, res, next) => {
               } else {
                 const response = {
                   data: err.toString(),
-                  msg: "API Error",
+                  msg: "API Error.",
                   code: 1,
                 };
                 res.send(response);
@@ -469,7 +469,7 @@ router.put("/UpdateUser", auth, (req, res, next) => {
       } else {
         const response = {
           data: err.toString(),
-          msg: "API Error",
+          msg: "API Error.",
           code: 1,
         };
         res.send(response);
@@ -511,7 +511,7 @@ router.delete("/DeleteUser", auth, (req, res, next) => {
       } else {
         const response = {
           data: err.toString(),
-          msg: "API Error",
+          msg: "API Error.",
           code: 1,
         };
         res.send(response);
