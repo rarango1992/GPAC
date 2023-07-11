@@ -16,7 +16,6 @@ const verifyToken = (req, res, next) => {
   }
   try {
     jwt.verify(token, config.TOKEN_KEY);
-    //req.user = decoded;
   } catch (err) {
     const response = {
         data: {},
