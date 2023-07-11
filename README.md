@@ -29,6 +29,7 @@ Para correr este proyecto, primero es necesario tener corriendo el servicio de M
 ```bash
   mongod.exe --dbpath <ruta_del_proyecto>\BACKEND\MONGO
 ```
+En caso de contar con un servicio de MongoDB en la nube, las colecciones se encuentran dentro del directorio "MONGO INFO TO IMPORT", dentro de este directorio se encuentran los archivos json para importar la información.
 
 Una vez corriendo el servicio de MongoDB. Ejecutamos el proyecto con NPM.
 
